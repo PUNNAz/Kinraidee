@@ -1,0 +1,231 @@
+.container-feed {
+    background-color: rgb(255, 255, 255);
+    border: 5px;
+    margin: 3%;
+    width: 50%;
+    
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.container-sub {
+    background-color: #ffffff;
+    padding: 1%;
+    margin-bottom: 3%;
+}
+
+.container-inside {
+    background-color: #ffffff;
+    padding: 0;
+    width: 80%;
+    margin-left: 0%;
+    /* display: flex;
+    justify-content: flex-start; */
+}
+
+.container-inside2 {
+    background-color: #1bec13;
+    width: 90%;
+}
+
+
+.container-inside:hover {
+    transform: scale(1.0);
+    transition: 0.4s !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.img1 {
+    background-color: #640800;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.img2 {
+    background-color: #ffffff;
+    width: 92%;
+    height: auto;
+    
+    border-radius: 8px;
+    transition: 0.4s !important;
+    padding: 0;
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+
+
+
+.containery {
+    margin: auto;
+    background: #fff;
+    height: 40px;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.8s;
+    border: 1px solid #a8a8a8;
+}
+
+.containery:hover {
+    border: 1px solid #474747;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.containery:hover .input {
+    width: 200px;
+}
+
+.review-name{
+    padding-top: 2%;
+    padding-left: 3%;
+}
+
+.review-name  span{
+    font-weight: 900;
+    padding-left: 1%;
+    font-size: 110%;
+}
+
+.containery .input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.8s;
+}
+
+.containery .btny .fas {
+    color: #aa00ff;
+}
+
+
+.badge {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.badge-container {
+    border-radius: 5%;
+    margin: 5px;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #ffffff;
+}
+
+.badge-container h5 {
+    margin-top: -5%;
+    margin-bottom: -5%;
+    color: white;
+    font-size: 100%;
+}
+
+.activey {
+    transform: scale(1.1);
+    transition: 0.4s !important;
+}
+
+.restaurant-name {
+    margin-top: 2%;
+    width: 150px;
+    /* Set your desired width */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.label {
+    cursor: pointer;
+    margin-left: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 5px;
+    background-color: #ebebeb;
+}
+
+.label:hover {
+    background-color: #d1d1d1;
+}
+
+.restaurant-name {
+    padding-left: 2%;
+    background-color: transparent;
+    width: 150px;
+    font-size: 120%;
+    /* Set your desired width */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.restaurant-info-flex {
+    width: 450px;
+    font-size: 100%;
+    padding-left: 3%;
+    display: flex;
+    padding-top: 2%
+    /* Set your desired width */
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
+.restaurant-info {
+    width: 95%;
+    font-size: 100%;
+    padding-left: 3%;
+        /* Set your desired width */
+        /* white-space: nowrap;
+    overflow: hidden;*/
+    white-space: initial;
+}
+
+.startag {
+    width: 20px;
+    height: 20px;
+    padding-right: 1%;
+    margin-top: -1%;
+}
+
+.restaurant-info-flex p{
+    margin-bottom: 0;
+    font-size: 90%;
+    margin-top: -0.5%;
+}
+
+.restaurant-info p {
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.restaurant-open {
+    color: #006400;
+    font-weight: 500;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.restaurant-close {
+    color: #640800;
+    font-weight: 500;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.justleft {
+    left: 150px !important;
+    background-color: #21a9db;
+}

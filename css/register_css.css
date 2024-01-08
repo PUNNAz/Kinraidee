@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sarif;
+}
+
+.textID {
+    font-size: 12px;
+    margin-top: 8px;
+    color: red;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #fff5f5;
+    padding: 10px;
+    padding-left: 0px !important;
+}
+
+.bg {
+    position: absolute;
+    margin-right: 780px;
+    top: 0;
+    width: 180px;
+    height: 180;
+    z-index: 1;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 25px 30px;
+    border-radius: 20px;
+
+    backdrop-filter: blur(15px);
+    border: 3px solid #ffd9d9;
+    border-bottom: 1px solid rgba(255, 154, 86, 0.5);
+    border-right: 1px solid rgba(255, 154, 86, 0.5);
+    border-radius: 20px;
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500px;
+    position: relative;
+}
+
+.container .title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: #FFB2B2;
+}
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+    margin: 20px 0 12px 0;
+    width: calc(100%/2 -20px);
+}
+
+.user-details .input-box .user-details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+    margin-left: 10px;
+    height: 38px;
+    outline: none;
+    border-radius: 0px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+    border-bottom-width: 2px;
+}
+
+form .user-parts .user-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 425px;
+}
+
+form .user-parts .category {
+    display: flex;
+    width: 80%;
+    margin: 20px 0;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+
+form .btn {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: #FFB2B2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 250px;
+}
+
+.btn:hover {
+    background: white;
+    color: #FFB2B2;
+    border: 3px solid;
+    border-color: #FFB2B2;
+    border-radius: 5px;
+}

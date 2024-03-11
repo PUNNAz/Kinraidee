@@ -9,6 +9,7 @@
         $username = $_SESSION['username'];
         $res_id = $_GET["id"];  
         $row =  "";
+        
     
 
         $conn = mysqli_connect($servername, $dbusername, $dbpassword, $dbname);

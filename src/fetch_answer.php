@@ -4,7 +4,7 @@
     $dbpassword = "abcd1234";
     $dbname = "Kinraidee";
     //fetch.php
-    $connect = mysqli_connect($servername, $username, $password, $dbname);
+    $connect = mysqli_connect($servername, $dbusername, $dbpassword, $dbname);
     $connect->set_charset("utf8");
     $output = '';
     $count = 1;

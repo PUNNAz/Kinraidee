@@ -87,12 +87,10 @@ $loginsellerid = '';
                     $servername = "kinraidee-db.c1oo0oq4mfrf.ap-southeast-2.rds.amazonaws.com";
                     $dbusername = "narinphat";
                     $dbpassword = "abcd1234";
-                    $dbname = "Cs251_project";
+                    $dbname = "Kinraidee";
                     
                     // Create connection
                     $conn = mysqli_connect($servername, $dbusername, $dbpassword, $dbname);
-                    $info = phpinfo();
-                    echo ". $info .";
                     // Check connection
                     if (!$conn) {
                         die("Connection failed: " . mysqli_connect_error());

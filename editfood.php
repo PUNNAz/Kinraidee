@@ -2,10 +2,10 @@
     session_start();
     global $user;
     global $username;
-    $servername = "35.240.190.9";
-    $dbusername = "test1";
-    $dbpassword = "test1";
-    $dbname = "Cs251_project";
+    $servername = "kinraidee-db.c1oo0oq4mfrf.ap-southeast-2.rds.amazonaws.com";
+                    $dbusername = "narinphat";
+                    $dbpassword = "abcd1234";
+                    $dbname = "Kinraidee";
     $username = $_SESSION['username'];
     $food_id = $_GET["id"];
     $index = '';

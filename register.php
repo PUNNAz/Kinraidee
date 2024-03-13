@@ -105,10 +105,10 @@
                 </div>
 
                 <?php 
-            $servername = "35.240.190.9";
-            $dbusername = "test";
-            $dbpassword = "test";
-            $dbname = "Cs251_project";
+             $servername = "kinraidee-db.c1oo0oq4mfrf.ap-southeast-2.rds.amazonaws.com";
+             $dbusername = "narinphat";
+             $dbpassword = "abcd1234";
+             $dbname = "Kinraidee";
             $conn = mysqli_connect($servername, $dbusername, $dbpassword, $dbname);
 
 

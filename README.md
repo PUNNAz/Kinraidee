@@ -9,6 +9,7 @@
     2. javascript
     3. ajax
     4. php
+    5. MySQL
 
 โดยเว็ปแอพพิเคชั่น Kinraidee จะมี feature ดังนี้
 

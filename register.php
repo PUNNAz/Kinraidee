@@ -95,7 +95,7 @@
                 <div id="HERE" ></div>
                     <div>
                         <strong>Select Image:</strong>
-                        <input type="file" id="uploadfile" name="uploadfile">
+                        <input type="file" id="uploadfile" name="uploadfile" accept="image/*">
 
                     </div>
                     <div>
